@@ -73,9 +73,9 @@ function App() {
               <div className="contact-list">
                 <p><Editable>kaustubh3117@gmail.com</Editable></p>
                 <p><Editable>+91 8830230003</Editable></p>
-                <p><Editable>Pune, Maharashtra</Editable></p>
+                <p><Editable>Pune</Editable></p>
+                <p className="linkedin-contact"><Editable>linkedin.com/in/kaustubh-patil-63b106108/</Editable></p>
               </div>
-              <p className="linkedin-contact"><Editable>https://www.linkedin.com/in/kaustubh-patil-63b106108/</Editable></p>
             </header>
 
             <section className="summary-section">
@@ -108,7 +108,7 @@ function App() {
                   <li><Editable>CI/CD</Editable></li>
                   <li><Editable>Git</Editable></li>
                   <li><Editable>Agile / Scrum</Editable></li>
-                  <li className="skill-primary skill-agentic"><Editable>Agentic AI</Editable></li>
+                  <li className="skill-highlight"><Editable>Agentic AI</Editable></li>
                   <li><Editable>Multi-agent AI Systems</Editable></li>
                   <li><Editable>Agent Orchestration</Editable></li>
                   <li><Editable>LLMs</Editable></li>
@@ -137,7 +137,7 @@ function App() {
                     <li><Editable>Resolved critical workflow issues and collaborated with cross-functional teams to improve operational efficiency and deliver high-priority projects on time.</Editable></li>
                   </ul>
                 </div>
-                <div className="experience-item">
+                <div className="experience-item associate-role">
                   <div className="role-heading">
                     <div>
                       <h3><Editable>Associate Software Engineer</Editable></h3>
