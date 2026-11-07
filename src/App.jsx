@@ -124,40 +124,32 @@ function App() {
                 <div className="experience-item">
                   <div className="role-heading">
                     <div>
-                      <h3><Editable>Senior Product Designer</Editable></h3>
-                      <p className="company"><Editable>Northstar Studio</Editable><span> · </span><Editable>New York, NY</Editable></p>
+                      <h3><Editable>Software Engineer</Editable></h3>
+                      <p className="company"><Editable>Tech Mahindra</Editable><span> · </span><Editable>Pune, India</Editable></p>
                     </div>
-                    <p className="date"><Editable>2021 — Present</Editable></p>
+                    <p className="date"><Editable>Jul 2021 — Present</Editable></p>
                   </div>
                   <ul>
-                    <li><Editable>Led end-to-end design for a new analytics platform, growing adoption to 40k+ monthly active users.</Editable></li>
-                    <li><Editable>Built a scalable design system that cut product design and engineering handoff time by 30%.</Editable></li>
-                    <li><Editable>Partnered with product and research to shape roadmaps and validate ideas with customers.</Editable></li>
+                    <li><Editable>Architected and implemented a multi-agent AI system with specialized coding, design, testing, and QA agents to generate, review, test, and refine software solutions.</Editable></li>
+                    <li><Editable>Architected scalable project structures across three major projects, improving maintainability and supporting evolving business requirements.</Editable></li>
+                    <li><Editable>Improved application performance using code splitting, caching, and database indexing to reduce page load times.</Editable></li>
+                    <li><Editable>Built and deployed web applications through Azure DevOps CI/CD pipelines, following Agile and Scrum practices to support reliable releases.</Editable></li>
+                    <li><Editable>Resolved critical workflow issues and collaborated with cross-functional teams to improve operational efficiency and deliver high-priority projects on time.</Editable></li>
                   </ul>
                 </div>
                 <div className="experience-item">
                   <div className="role-heading">
                     <div>
-                      <h3><Editable>Product Designer</Editable></h3>
-                      <p className="company"><Editable>Fieldwork</Editable><span> · </span><Editable>New York, NY</Editable></p>
+                      <h3><Editable>Associate Software Engineer</Editable></h3>
+                      <p className="company"><Editable>Netfotech Solutions</Editable><span> · </span><Editable>Pune, India</Editable></p>
                     </div>
-                    <p className="date"><Editable>2018 — 2021</Editable></p>
+                    <p className="date"><Editable>Feb 2021 — Jun 2021</Editable></p>
                   </div>
                   <ul>
-                    <li><Editable>Designed mobile-first experiences for a suite of tools used by 12,000+ small businesses.</Editable></li>
-                    <li><Editable>Improved onboarding completion by 22% through iterative testing and journey redesign.</Editable></li>
-                  </ul>
-                </div>
-                <div className="experience-item">
-                  <div className="role-heading">
-                    <div>
-                      <h3><Editable>Visual Designer</Editable></h3>
-                      <p className="company"><Editable>Goodside Creative</Editable><span> · </span><Editable>Brooklyn, NY</Editable></p>
-                    </div>
-                    <p className="date"><Editable>2016 — 2018</Editable></p>
-                  </div>
-                  <ul>
-                    <li><Editable>Created digital campaigns and brand systems for a range of early-stage and established clients.</Editable></li>
+                    <li><Editable>Developed full-stack features for a healthcare application using JavaScript, React, Python, Django REST, SQL, and Git.</Editable></li>
+                    <li><Editable>Built accessible, responsive user interfaces for consistent experiences across mobile devices and desktop browsers.</Editable></li>
+                    <li><Editable>Automated hospital workflows to support patients, staff, and doctors.</Editable></li>
+                    <li><Editable>Resolved product defects and optimized application performance; followed software quality assurance practices and verified cross-browser compatibility.</Editable></li>
                   </ul>
                 </div>
               </section>
@@ -181,8 +173,8 @@ function App() {
             </div>
 
             <footer className="resume-footer">
-              <span>ALEX MORGAN</span>
-              <span>RESUME <span className="footer-divider">/</span> 2025</span>
+              <span>KAUSTUBH PATIL</span>
+              <span>RESUME <span className="footer-divider">/</span> 2026</span>
             </footer>
           </article>
         </div>
