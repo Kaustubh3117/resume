@@ -372,6 +372,13 @@ a {
   line-height: 1.25;
 }
 
+.skill-highlight {
+  background: #eef4ff;
+  border: 1px solid #d8e5ff;
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
 .detail-line {
   display: flex;
   gap: 12px;

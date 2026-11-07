@@ -93,18 +93,18 @@ function App() {
                 <ul className="skill-list">
                   <li><Editable>JavaScript (ES6+)</Editable></li>
                   <li><Editable>TypeScript</Editable></li>
-                  <li><Editable>React</Editable></li>
+                  <li className="skill-highlight"><Editable>React</Editable></li>
                   <li><Editable>Redux</Editable></li>
                   <li><Editable>Redux-Saga</Editable></li>
                   <li><Editable>HTML5</Editable></li>
                   <li><Editable>CSS3</Editable></li>
                   <li><Editable>Node.js</Editable></li>
-                  <li><Editable>Express</Editable></li>
-                  <li><Editable>Python</Editable></li>
+                  <li className="skill-highlight"><Editable>Express</Editable></li>
+                  <li className="skill-highlight"><Editable>Python</Editable></li>
                   <li><Editable>Flask</Editable></li>
-                  <li><Editable>FastAPI</Editable></li>
+                  <li className="skill-highlight"><Editable>FastAPI</Editable></li>
                   <li><Editable>SQL</Editable></li>
-                  <li><Editable>Azure DevOps</Editable></li>
+                  <li className="skill-highlight"><Editable>Azure DevOps</Editable></li>
                   <li><Editable>CI/CD</Editable></li>
                   <li><Editable>Git</Editable></li>
                   <li><Editable>Agile / Scrum</Editable></li>
@@ -115,7 +115,7 @@ function App() {
                   <li><Editable>Prompt Engineering</Editable></li>
                   <li><Editable>MCP (Model Context Protocol)</Editable></li>
                   <li><Editable>GitHub Copilot</Editable></li>
-                  <li><Editable>AI-assisted Development</Editable></li>
+                  <li className="skill-highlight"><Editable>AI-assisted Development</Editable></li>
                 </ul>
               </section>
 
