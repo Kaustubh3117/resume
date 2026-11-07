@@ -387,6 +387,36 @@ a {
   font-weight: 600;
 }
 
+.awards-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.awards-list li {
+  padding-left: 2px;
+}
+
+.awards-list li::marker {
+  color: #6981bd;
+}
+
+.certificate-list {
+  margin: 0;
+  padding-left: 18px;
+  color: #536176;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.certificate-list li {
+  padding-left: 2px;
+  margin-bottom: 4px;
+}
+
+.certificate-list li::marker {
+  color: #6981bd;
+}
+
 .resume-footer {
   display: flex;
   justify-content: space-between;

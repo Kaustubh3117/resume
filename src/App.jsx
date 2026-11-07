@@ -221,10 +221,27 @@ function App() {
                 </div>
               </section>
 
+              <section className="resume-section certificates-section">
+                <SectionTitle>Certificates</SectionTitle>
+                <ul className="certificate-list">
+                  <li><Editable>Agentic AI Architectures with Patterns, Frameworks and MCP — Udemy, Nov 4, 2026</Editable></li>
+                  <li><Editable>Claude Code: The Practical Guide — Udemy, July 4, 2026</Editable></li>
+                  <li><Editable>Complete Prompt Engineering Practical Course (C|PEPC) — Udemy, July 4, 2026</Editable></li>
+                  <li><Editable>Programming, Data Structures and Algorithms Using Python — NPTEL, Jan–Mar 2021 (Elite)</Editable></li>
+                  <li><Editable>JavaScript and ES6 Challenges — Udemy, Feb 3, 2019</Editable></li>
+                </ul>
+              </section>
+
               <section className="resume-section details-section">
                 <SectionTitle>Additional</SectionTitle>
-                <p className="detail-line"><strong>Languages</strong><span>English (Native), Spanish (Conversational)</span></p>
-                <p className="detail-line"><strong>Recognition</strong><span>Young Ones ADC Merit, Digital Product (2022); Awwwards Honorable Mention (2020)</span></p>
+                <p className="detail-line"><strong>Languages</strong><span>English, Hindi, Marathi</span></p>
+                <div className="detail-line awards-line">
+                  <strong>Awards</strong>
+                  <ul className="awards-list">
+                    <li><Editable>Bravo Award — Tech Mahindra (Aug 2026, Dec 2025, Mar 2022)</Editable></li>
+                    <li><Editable>Pat on the Back Award — Tech Mahindra (Mar 2024, Sep 2023, Jun 2022)</Editable></li>
+                  </ul>
+                </div>
               </section>
             </div>
 
