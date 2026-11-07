@@ -130,6 +130,7 @@ function App() {
                     <p className="date"><Editable>Jul 2021 — Present</Editable></p>
                   </div>
                   <ul>
+                    <li><Editable>Designed and implemented an AI-assisted, multi-agent workflow for the Dispatch Management System, using specialized coding, design, testing, and QA agents with GitHub Copilot Auto, MCP, and prompt engineering to support development, review, and validation.</Editable></li>
                     <li><Editable>Architected scalable project structures across three major projects, improving maintainability and supporting evolving business requirements.</Editable></li>
                     <li><Editable>Improved application performance using code splitting, caching, and database indexing to reduce page load times.</Editable></li>
                     <li><Editable>Built and deployed web applications through Azure DevOps CI/CD pipelines, following Agile and Scrum practices to support reliable releases.</Editable></li>
@@ -145,10 +146,8 @@ function App() {
                     <p className="date"><Editable>Feb 2021 — Jun 2021</Editable></p>
                   </div>
                   <ul>
-                    <li><Editable>Developed full-stack features for a healthcare application using JavaScript, React, Python, Django REST, SQL, and Git.</Editable></li>
-                    <li><Editable>Built accessible, responsive user interfaces for consistent experiences across mobile devices and desktop browsers.</Editable></li>
-                    <li><Editable>Automated hospital workflows to support patients, staff, and doctors.</Editable></li>
-                    <li><Editable>Resolved product defects and optimized application performance; followed software quality assurance practices and verified cross-browser compatibility.</Editable></li>
+                    <li><Editable>Contributed to full-stack development of healthcare management software using JavaScript, React, Python, Django REST, and SQL.</Editable></li>
+                    <li><Editable>Resolved defects and validated responsive, cross-browser behavior using software quality assurance practices.</Editable></li>
                   </ul>
                 </div>
               </section>
@@ -164,12 +163,39 @@ function App() {
                     <p className="date"><Editable>Jul 2021 — Present</Editable></p>
                   </div>
                   <ul>
-                    <li><Editable>Designed and implemented an AI-assisted, multi-agent development workflow for the Dispatch Management System, coordinating specialized coding, design, testing, and QA agents to generate, review, test, and refine solutions using GitHub Copilot Auto, MCP, and prompt engineering.</Editable></li>
                     <li><Editable>Developed dispatch capabilities for technician allocation, task assignment and reassignment, workforce coordination, and real-time field operations.</Editable></li>
                     <li><Editable>Built reporting dashboards and real-time tracking to help supervisors monitor technician progress, task completion, and SLA adherence.</Editable></li>
                     <li><Editable>Modernized the full-stack application using React, Node.js, Python, Redux, and Redux-Saga; introduced functional components and code splitting to improve maintainability and application performance.</Editable></li>
                     <li><Editable>Standardized project structure and UI patterns and refined error handling to improve maintainability and deliver a more consistent user experience.</Editable></li>
                     <li><Editable>Supported reliable releases through Azure DevOps CI/CD workflows and Agile/Scrum delivery practices.</Editable></li>
+                  </ul>
+                </div>
+                <div className="experience-item">
+                  <div className="role-heading">
+                    <div>
+                      <h3><Editable>Healthcare Management System</Editable></h3>
+                      <p className="company"><Editable>Netfotech Solutions</Editable><span> · </span><Editable>Full-Stack Web Application</Editable></p>
+                    </div>
+                    <p className="date"><Editable>Feb 2021 — Jun 2021</Editable></p>
+                  </div>
+                  <ul>
+                    <li><Editable>Developed healthcare workflows for appointment discovery and booking, video consultations, and management of patient, doctor, nurse, laboratory, and inpatient/outpatient information.</Editable></li>
+                    <li><Editable>Automated hospital administration workflows, including employee records, salary information, and daily, monthly, and yearly reports.</Editable></li>
+                    <li><Editable>Built responsive user interfaces with React and Redux and full-stack features using JavaScript, Python, Django REST, SQL, HTML, and CSS.</Editable></li>
+                  </ul>
+                </div>
+                <div className="experience-item">
+                  <div className="role-heading">
+                    <div>
+                      <h3><Editable>Reservation Management System</Editable></h3>
+                      <p className="company"><Editable>Personal Project</Editable></p>
+                    </div>
+                    <p className="date"><Editable>Feb 2019 — Nov 2020</Editable></p>
+                  </div>
+                  <ul>
+                    <li><Editable>Built a bus seat reservation application for schedule selection, seat availability, ticket booking, and payment details.</Editable></li>
+                    <li><Editable>Implemented role-based workflows for users, agents, and administrators, including administrator approval for agents and controls for schedules, bookings, and system access.</Editable></li>
+                    <li><Editable>Developed responsive web features using JavaScript, React, Redux, Python, Django REST, PrimeReact, HTML, CSS, and SQL.</Editable></li>
                   </ul>
                 </div>
               </section>
