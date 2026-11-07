@@ -108,7 +108,7 @@ function App() {
                   <li><Editable>CI/CD</Editable></li>
                   <li><Editable>Git</Editable></li>
                   <li><Editable>Agile / Scrum</Editable></li>
-                  <li><Editable>Agentic AI</Editable></li>
+                  <li className="skill-primary skill-agentic"><Editable>Agentic AI</Editable></li>
                   <li><Editable>Multi-agent AI Systems</Editable></li>
                   <li><Editable>Agent Orchestration</Editable></li>
                   <li><Editable>LLMs</Editable></li>
