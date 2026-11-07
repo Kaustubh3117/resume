@@ -93,29 +93,29 @@ function App() {
                 <ul className="skill-list">
                   <li><Editable>JavaScript (ES6+)</Editable></li>
                   <li><Editable>TypeScript</Editable></li>
-                  <li><Editable>React</Editable></li>
+                  <li className="skill-primary skill-react"><Editable>React</Editable></li>
                   <li><Editable>Redux</Editable></li>
                   <li><Editable>Redux-Saga</Editable></li>
                   <li><Editable>HTML5</Editable></li>
                   <li><Editable>CSS3</Editable></li>
-                  <li><Editable>Node.js</Editable></li>
-                  <li><Editable>Express</Editable></li>
-                  <li><Editable>Python</Editable></li>
+                  <li className="skill-primary skill-node"><Editable>Node.js</Editable></li>
+                  <li className="skill-primary skill-express"><Editable>Express</Editable></li>
+                  <li className="skill-primary skill-python"><Editable>Python</Editable></li>
                   <li><Editable>Flask</Editable></li>
-                  <li><Editable>FastAPI</Editable></li>
+                  <li className="skill-primary skill-fastapi"><Editable>FastAPI</Editable></li>
                   <li><Editable>SQL</Editable></li>
-                  <li><Editable>Azure DevOps</Editable></li>
+                  <li className="skill-primary skill-azure"><Editable>Azure DevOps</Editable></li>
                   <li><Editable>CI/CD</Editable></li>
                   <li><Editable>Git</Editable></li>
                   <li><Editable>Agile / Scrum</Editable></li>
-                  <li><Editable>Agentic AI</Editable></li>
+                  <li className="skill-primary skill-agentic"><Editable>Agentic AI</Editable></li>
                   <li><Editable>Multi-agent AI Systems</Editable></li>
                   <li><Editable>Agent Orchestration</Editable></li>
                   <li><Editable>LLMs</Editable></li>
                   <li><Editable>Prompt Engineering</Editable></li>
                   <li><Editable>MCP (Model Context Protocol)</Editable></li>
                   <li><Editable>GitHub Copilot</Editable></li>
-                  <li><Editable>AI-assisted Development</Editable></li>
+                  <li className="skill-primary skill-ai"><Editable>AI-assisted Development</Editable></li>
                 </ul>
               </section>
 
