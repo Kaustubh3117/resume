@@ -211,8 +211,9 @@ a {
 
 .resume-header {
   display: flex;
-  justify-content: space-between;
-  gap: 26px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
   padding-bottom: 26px;
   border-bottom: 1px solid #e6e9ef;
 }
@@ -236,23 +237,43 @@ a {
 }
 
 .contact-list {
-  width: 260px;
-  max-width: 42%;
-  align-self: flex-end;
-  padding-bottom: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  width: 100%;
+  margin-top: 16px;
 }
 
 .contact-list p {
   display: flex;
-  justify-content: flex-end;
   align-items: baseline;
   gap: 4px;
-  margin: 0 0 6px;
+  margin: 0;
   color: #536176;
   font-size: 14px;
   line-height: 1.4;
-  overflow-wrap: anywhere;
-  text-align: right;
+  text-align: left;
+}
+
+.contact-list p + p::before {
+  content: '|';
+  color: #a0a9b8;
+}
+
+.linkedin-contact {
+  max-width: 100%;
+  margin: 5px 0 0;
+  overflow-x: auto;
+  color: #536176;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.linkedin-contact .editable {
+  white-space: nowrap;
 }
 
 .contact-icon {
@@ -553,22 +574,10 @@ a {
     font-size: 17px;
   }
 
-  .contact-list {
-    width: auto;
-    min-width: 0;
-    max-width: 100%;
-    align-self: flex-start;
-  }
-
   .contact-list p {
     justify-content: flex-start;
     text-align: left;
     font-size: 14px;
-  }
-
-  .resume-header {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .date {
@@ -594,7 +603,7 @@ a {
 @media print {
   @page {
     size: A4;
-    margin: 0;
+    margin: 14mm 15mm;
   }
 
   :root,
@@ -603,7 +612,7 @@ a {
   .app-shell,
   .workspace,
   .resume-stage {
-    width: 210mm;
+    width: auto;
     min-height: 0;
     margin: 0;
     padding: 0;
@@ -622,10 +631,10 @@ a {
   }
 
   .resume-page {
-    width: 210mm;
+    width: auto;
     max-width: none;
-    min-height: 297mm;
-    padding: 16mm 17mm 11mm;
+    min-height: 0;
+    padding: 0;
     box-shadow: none;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;

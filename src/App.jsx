@@ -74,8 +74,8 @@ function App() {
                 <p><Editable>kaustubh3117@gmail.com</Editable></p>
                 <p><Editable>+91 8830230003</Editable></p>
                 <p><Editable>Pune, Maharashtra</Editable></p>
-                <p><Editable>https://www.linkedin.com/in/kaustubh-patil-63b106108/</Editable></p>
               </div>
+              <p className="linkedin-contact"><Editable>https://www.linkedin.com/in/kaustubh-patil-63b106108/</Editable></p>
             </header>
 
             <section className="summary-section">
