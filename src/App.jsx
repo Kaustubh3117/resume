@@ -130,7 +130,6 @@ function App() {
                     <p className="date"><Editable>Jul 2021 — Present</Editable></p>
                   </div>
                   <ul>
-                    <li><Editable>Architected and implemented a multi-agent AI system with specialized coding, design, testing, and QA agents to generate, review, test, and refine software solutions.</Editable></li>
                     <li><Editable>Architected scalable project structures across three major projects, improving maintainability and supporting evolving business requirements.</Editable></li>
                     <li><Editable>Improved application performance using code splitting, caching, and database indexing to reduce page load times.</Editable></li>
                     <li><Editable>Built and deployed web applications through Azure DevOps CI/CD pipelines, following Agile and Scrum practices to support reliable releases.</Editable></li>
@@ -154,14 +153,44 @@ function App() {
                 </div>
               </section>
 
+              <section className="resume-section projects-section">
+                <SectionTitle>Projects</SectionTitle>
+                <div className="experience-item">
+                  <div className="role-heading">
+                    <div>
+                      <h3><Editable>Dispatch Management System</Editable></h3>
+                      <p className="company"><Editable>Tech Mahindra</Editable><span> · </span><Editable>Field Operations Platform</Editable></p>
+                    </div>
+                    <p className="date"><Editable>Jul 2021 — Present</Editable></p>
+                  </div>
+                  <ul>
+                    <li><Editable>Designed and implemented an AI-assisted, multi-agent development workflow for the Dispatch Management System, coordinating specialized coding, design, testing, and QA agents to generate, review, test, and refine solutions using GitHub Copilot Auto, MCP, and prompt engineering.</Editable></li>
+                    <li><Editable>Developed dispatch capabilities for technician allocation, task assignment and reassignment, workforce coordination, and real-time field operations.</Editable></li>
+                    <li><Editable>Built reporting dashboards and real-time tracking to help supervisors monitor technician progress, task completion, and SLA adherence.</Editable></li>
+                    <li><Editable>Modernized the full-stack application using React, Node.js, Python, Redux, and Redux-Saga; introduced functional components and code splitting to improve maintainability and application performance.</Editable></li>
+                    <li><Editable>Standardized project structure and UI patterns and refined error handling to improve maintainability and deliver a more consistent user experience.</Editable></li>
+                    <li><Editable>Supported reliable releases through Azure DevOps CI/CD workflows and Agile/Scrum delivery practices.</Editable></li>
+                  </ul>
+                </div>
+              </section>
+
               <section className="resume-section education-section">
                 <SectionTitle>Education</SectionTitle>
                 <div className="education-item">
                   <div>
-                    <h3><Editable>BFA, Communication Design</Editable></h3>
-                    <p className="company"><Editable>Parsons School of Design</Editable><span> · </span><Editable>New York, NY</Editable></p>
+                    <h3><Editable>Master in Computer Application</Editable></h3>
+                    <p className="company"><Editable>Shivaji University</Editable><span> · </span><Editable>Kolhapur</Editable></p>
+                    <p className="company"><Editable>Grade: A+</Editable></p>
                   </div>
-                  <p className="date"><Editable>2012 — 2016</Editable></p>
+                  <p className="date"><Editable>Jun 2017 — Mar 2020</Editable></p>
+                </div>
+                <div className="education-item">
+                  <div>
+                    <h3><Editable>Bachelor of Science</Editable></h3>
+                    <p className="company"><Editable>Yashwantrao Chavan College of Science</Editable><span> · </span><Editable>Karad</Editable></p>
+                    <p className="company"><Editable>Grade: A</Editable></p>
+                  </div>
+                  <p className="date"><Editable>Jun 2014 — Mar 2017</Editable></p>
                 </div>
               </section>
 
