@@ -245,10 +245,6 @@ function App() {
               </section>
             </div>
 
-            <footer className="resume-footer">
-              <span>KAUSTUBH PATIL</span>
-              <span>RESUME <span className="footer-divider">/</span> 2026</span>
-            </footer>
           </article>
         </div>
         <p className="stage-note">Edits reset when you refresh this page. Export a PDF to keep your finished resume.</p>
