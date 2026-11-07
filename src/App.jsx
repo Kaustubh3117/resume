@@ -147,6 +147,7 @@ function App() {
                   </div>
                   <ul>
                     <li><Editable>Contributed to full-stack development of healthcare management software using JavaScript, React, Python, Django REST, and SQL.</Editable></li>
+                    <li><Editable>Automated healthcare workflows for patients, doctors, and hospital staff, including appointment and administrative processes.</Editable></li>
                     <li><Editable>Resolved defects and validated responsive, cross-browser behavior using software quality assurance practices.</Editable></li>
                   </ul>
                 </div>
